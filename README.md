@@ -30,28 +30,30 @@ Things you may want to cover:
 |password|string|null: false|
 |username|string|null: false|
 ### Association
-- has_many :groups
+- has_many :groups, through:  :users_groups
 - has_many :messages
+- has_many :users_groups
 
 ## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|title|text|null: false|
-|text|text|null: false|
+|body|text|null: false|
+|image|string||
 |user_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
 - belongs_to :group
 - has_many :posts_tags
-- has_many  :tags,  through:  :posts_tags
 
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |groupname|text|null: false|
 ### Association
-- has_many :posts_tags
-- has_many  :posts,  through:  :posts_tags
+- has_many :users, through:  :users_groups
+- has_many :messages
+- has_many :users_groups
 
 ## users_groupsテーブル
 |Column|Type|Options|
