@@ -26,18 +26,16 @@ Things you may want to cover:
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|email|string|null: false|
-|password|string|null: false|
-|username|string|null: false|
+|name|string|null: false|
 ### Association
-- has_many :groups, through:  :users_groups
+- has_many :groups, through: :users_groups
 - has_many :messages
 - has_many :users_groups
 
 ## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|body|text|null: false|
+|body|text|null: false, index: ture|
 |image|string||
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
@@ -48,13 +46,13 @@ Things you may want to cover:
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|groupname|text|null: false|
+|name|text|null: false|
 ### Association
 - has_many :users, through:  :users_groups
 - has_many :messages
 - has_many :users_groups
 
-## users_groupsテーブル
+## groups_usersテーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
@@ -62,4 +60,3 @@ Things you may want to cover:
 ### Association
 - belongs_to :user
 - belongs_to :group
-
