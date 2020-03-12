@@ -771,3 +771,12 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 1062ms (Views: 1058.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-12 19:21:16 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (8.1ms)
+  Rendered messages/_main_chat.html.haml (5.7ms)
+  Rendered messages/index.html.haml within layouts/application (35.3ms)
+Completed 200 OK in 1702ms (Views: 1691.4ms | ActiveRecord: 0.0ms)
+
+
