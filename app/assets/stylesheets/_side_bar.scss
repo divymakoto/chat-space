@@ -5,8 +5,16 @@
 
   &__user-name {
     height: 100px;
+    display: flex;
+    align-items: center;
 
     &__top-items{
+      background-color: #888833;
+      height: 20px;
+      width: 260px;
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
 
       &__name{
 

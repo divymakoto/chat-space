@@ -881,3 +881,129 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 1113ms (Views: 1108.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-12 21:18:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (5.0ms)
+  Rendered messages/_main_chat.html.haml (4.8ms)
+  Rendered messages/index.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 1172ms (Views: 1167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:19:12 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (3.6ms)
+  Rendered messages/_main_chat.html.haml (3.7ms)
+  Rendered messages/index.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 1067ms (Views: 1062.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:22:07 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (3.7ms)
+  Rendered messages/_main_chat.html.haml (3.6ms)
+  Rendered messages/index.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 1008ms (Views: 1004.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:22:58 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (10.2ms)
+  Rendered messages/_main_chat.html.haml (2.3ms)
+  Rendered messages/index.html.haml within layouts/application (20.0ms)
+Completed 200 OK in 1013ms (Views: 1009.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:23:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (4.0ms)
+  Rendered messages/_main_chat.html.haml (2.6ms)
+  Rendered messages/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 1007ms (Views: 1004.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:24:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (6.0ms)
+  Rendered messages/_main_chat.html.haml (3.3ms)
+  Rendered messages/index.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 1009ms (Views: 1005.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:24:35 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (4.1ms)
+  Rendered messages/_main_chat.html.haml (2.8ms)
+  Rendered messages/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 952ms (Views: 948.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:30:04 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (7.5ms)
+  Rendered messages/_main_chat.html.haml (6.2ms)
+  Rendered messages/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 1342ms (Views: 1329.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:31:34 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (6.0ms)
+  Rendered messages/_main_chat.html.haml (5.0ms)
+  Rendered messages/index.html.haml within layouts/application (22.0ms)
+Completed 200 OK in 96ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:31:37 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (5.1ms)
+  Rendered messages/_main_chat.html.haml (4.3ms)
+  Rendered messages/index.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 63ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-12 21:32:11 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (4.3ms)
+  Rendered messages/_main_chat.html.haml (5.4ms)
+  Rendered messages/index.html.haml within layouts/application (19.1ms)
+Completed 200 OK in 1147ms (Views: 1142.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-17 14:28:35 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (5.7ms)
+  Rendered messages/_main_chat.html.haml (4.1ms)
+  Rendered messages/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 408ms (Views: 397.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-18 19:01:03 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (32.0ms)
+  Rendered messages/_main_chat.html.haml (140.3ms)
+  Rendered messages/index.html.haml within layouts/application (224.4ms)
+Completed 200 OK in 332ms (Views: 305.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-18 19:03:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (7.7ms)
+  Rendered messages/_main_chat.html.haml (6.4ms)
+  Rendered messages/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 103ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
