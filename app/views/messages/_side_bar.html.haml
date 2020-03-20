@@ -1,15 +1,12 @@
 .side-chat
   .side-chat__header
-    .side-chat__header__
-    .side-chat__header__username
-      makoto
-    .side-chat__header__menu
-      .side-chat__header__menu__new-group
-        = link_to '#', method: :get do
-          %i.fas.fa-edit
-
-      .side-chat__header__menu__edit-user
-        = link_to '#', method: :get do
-          %i.fas.cog
+    .side-chat__header__box
+      .side-chat__header__box__username
+        makoto
+      .side-chat__header__box__icon
+        = link_to '#' , class: "side-chat__header__box__icon__new-group" do
+          =icon('fas','edit')
+        = link_to '#' , class: "side-chat__header__box__icon__edit-group" do
+          =icon('fas','cog')
 
   .side-chat__groups
