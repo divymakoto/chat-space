@@ -1,33 +1,51 @@
-.side-bar{
+.side-chat{
   background-color: #253141;
   height: 100vh;
   width: 300px;
 
-  &__user-name {
+  &__header {
     height: 100px;
     display: flex;
     align-items: center;
 
-    &__top-items{
-      background-color: #888833;
+    &__box{
+      background-color: #333333;
       height: 20px;
       width: 260px;
       margin: 20px;
       display: flex;
       justify-content: space-between;
 
-      &__name{
+      &__username{
+        color: white;
 
       }
 
-      &__icons{
+      &__menu{
+        color: white;
+        background-color: gray;
+        width: 60px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        &__new-group{
+          
+
+        }
+
+        &__edit-user{
+
+        }
+
+       
 
       }
     }
   }
 
 
-  &__group-list {
+  &__groups {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
   }

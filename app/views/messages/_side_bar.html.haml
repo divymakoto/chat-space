@@ -1,13 +1,15 @@
-.side-bar
-
-  .side-bar__user-name
-    .side-bar__user-name__top-items
-      .side-bar__user-name__top-items__name
-        makoto
-      .side-bar__user-name__top-items__icons
-        = link_to '#' , method: :get do
+.side-chat
+  .side-chat__header
+    .side-chat__header__
+    .side-chat__header__username
+      makoto
+    .side-chat__header__menu
+      .side-chat__header__menu__new-group
+        = link_to '#', method: :get do
           %i.fas.fa-edit
-        = link_to '#' , method: :get do
-          %i.fas.fa-cog
 
-  .side-bar__group-list
+      .side-chat__header__menu__edit-user
+        = link_to '#', method: :get do
+          %i.fas.cog
+
+  .side-chat__groups
