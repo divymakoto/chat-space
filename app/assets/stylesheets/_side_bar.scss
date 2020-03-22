@@ -18,6 +18,8 @@
 
       &__username{
         color: white;
+        font-size: 16px;
+        font-weight: bold;
       }
 
       &__icon{
@@ -40,5 +42,17 @@
   &__groups {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
+    color: #ffffff ;
+    font-weight: bold;
+
+    &__name{
+      font-size: 15px;
+      padding: 20px 20px 5px;
+    }
+
+    &__message{
+      font-size: 11px;
+      margin: 0 20px 40px 20px;
+    }
   }
 }
