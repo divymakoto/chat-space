@@ -3993,3 +3993,64 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 1234ms (Views: 1230.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-29 20:13:39 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (21.0ms)
+  Rendered messages/_main_chat.html.haml (114.3ms)
+  Rendered messages/index.html.haml within layouts/application (156.0ms)
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "submit":String):
+    38:       %label{ class: "main-chat__form__box__input-image"}
+    39:         =icon('fas', 'image')
+    40:         %input{ type: "file", class: "main-chat__form__box___input-image__file"}
+    41:     %input{ "submit", class: "submit-btn"}
+  
+app/views/messages/_main_chat.html.haml:41:in `_app_views_messages__main_chat_html_haml__810369209339691488_70134411356420'
+app/views/messages/index.html.haml:3:in `_app_views_messages_index_html_haml___4578117766909662806_70134442890620'
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.9ms)
+Started GET "/" for ::1 at 2020-03-29 20:14:16 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (5.9ms)
+  Rendered messages/_main_chat.html.haml (16.2ms)
+  Rendered messages/index.html.haml within layouts/application (30.0ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "submit":String):
+    38:       %label{ class: "main-chat__form__box__input-image"}
+    39:         =icon('fas', 'image')
+    40:         %input{ type: "file", class: "main-chat__form__box___input-image__file"}
+    41:     %input{ "submit", class: "main-chat__form__submit-btn"}
+  
+app/views/messages/_main_chat.html.haml:41:in `_app_views_messages__main_chat_html_haml__810369209339691488_70134411527360'
+app/views/messages/index.html.haml:3:in `_app_views_messages_index_html_haml___4578117766909662806_70134450999400'
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/tech-camp/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (104.8ms)
+Started GET "/" for ::1 at 2020-03-29 20:14:37 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/_side_bar.html.haml (6.8ms)
+  Rendered messages/_main_chat.html.haml (9.5ms)
+  Rendered messages/index.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 90ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+

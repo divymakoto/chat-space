@@ -33,3 +33,9 @@
       おはよう！
 
   .main-chat__form
+    %form.main-chat__form__box
+      %input{ type: "text", class: "main-chat__form__box__input-text", placeholder: "type a message"}
+      %label{ class: "main-chat__form__box__input-image"}
+        =icon('fas', 'image')
+        %input{ type: "file", class: "main-chat__form__box___input-image__file"}
+    %input{ type: "submit", class: "main-chat__form__submit-btn"}
